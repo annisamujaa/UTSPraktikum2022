@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Source+Sans+Pro&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #FBF8F1;
+}
+
+.navbar1 {
+    padding: 0em 1em 0em 1em;
+    background-color: #E9DAC1;
+}
+
+.btn-banner{
+    background-color: #54BAB9;
+    color: white;
+}
+.btn-nav {
+    background-color: #F7D59C;
+}
+
+.banner{
+    background-image: url(banner1.jpg);
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.text-banner {
+    display: inline-block;
+    margin: 4em 0em 0em 55em;
+    padding: 0em;
+}
+
+/* SECTION 2 */
+.card-s2-home {
+    width: 15rem;
+}
+
+
+/* SECTION 3 */
+.section3-home {
+    background-image: url(gambar-s3-home.png);
+    height: 400px;
+}
+
+.judul-s3-home {
+    padding: 2em 0em 0.5em 0em;
+}
+.card-s3-home {
+    width: 35rem;
+}
+
+
+@media screen and (max-width: 800px) {
+    .trending-product {
+        margin: 0em 0.5em 0.5em 0.5em;
+    }
+    .card-s2-home {
+        width: 10rem;
+    }
+    .card-s2-home h5{
+       font-size: 12px;
+    }
+    .card-s2-home p{
+        font-size: 10px;
+    }
+    .card-s2-home a {
+        height: 20px;
+        width: 50px;
+        font-size: 10px;
+        padding: 0.1em 0em 0em 0em;
+    }
+    .text-banner {
+        display: inline-block;
+        margin: 4em 0em 0em 10em;
+        padding: 0em;
+    }
+    .section3-home {
+        margin: 1em 0em 1em 0em;
+        height: 200px;
+    }
+    .judul-s3-home {
+        font-size: 15px;
+        padding: 0.5em 0em 0em 0em;
+    }
+    .card-s3-home {
+        width: 15rem;
+        height: 150px;
+    }
+    .card-s3-home h5{
+        font-size: 12px;
+    }
+    .card-s3-home h4,.card-s3-home p{
+        font-size: 10px;
+    }
+    .card-s3-home button {
+        height: 20px;
+        width: 70px;
+        font-size: 10px;
+        padding-top: 0.1em;
+        margin-top: 0.5em;
+    }
+}
+
+/* SECTION 4 */
+.banner-template {
+    text-align: center;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-kat-home{
+    padding: 5em 0em 6.5em 0em;
+    border: 1px solid #dcdcdc;
+}
+
+.kat1 {
+    background-image: url('https://img.freepik.com/free-photo/modern-interior-design-with-sofa-empty-blue-wall-background-3d-rendering_41470-4343.jpg?w=740');
+    height: 300px;
+}
+
+.kat2{
+    background-image: url('https://img.freepik.com/free-photo/beautiful-shot-modern-house-kitchen-dining-room_181624-2870.jpg?size=626&ext=jpg&uid=R31031466&ga=GA1.2.2057058641.1647660493');
+    height: 300px;
+}
+
+.kat3{
+    background-image: url('https://img.freepik.com/free-photo/living-room-japandi-interior-design_53876-138124.jpg?t=st=1649222248~exp=1649222848~hmac=28a4ce7e237b431ed877bb72a8fbeb584ca0cefa8fdb25439c3e3ab9fe9604ab&w=826');
+    height: 300px;
+}
+
+.kat4{
+    background-image: url('https://img.freepik.com/free-photo/modern-interior-room-with-furniture-tv-room-dining-room-kitchen-3d-rendering_41470-3376.jpg?size=626&ext=jpg&uid=R31031466&ga=GA1.2.2057058641.1647660493');
+    height: 300px;
+}
+
+/* HALAMAN ABOUT */
+.banner-about{
+    background-image: url('https://img.freepik.com/free-photo/shot-sun-eye-metropolis-urban_1112-964.jpg?t=st=1649254643~exp=1649255243~hmac=61eb4f2b145410bdc2a9e6f6d0810f21d5136a2caf1d685e4c48d7e3629a2006&w=826');
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.text-banner-about{
+    padding-top: 9em;
+}
+
+.container-about {
+    margin-top: 5em;
+    height: 200px;
+    padding: 1em 2em 1em 2em;
+    background-color: #FBF8F1;
+}
+
+.text-s1-about {
+    background-color:  white;
+    padding: 2em 1em 1em 1em;
+}
+
+.visi {
+    margin: 14em 0em 1em 0em;
+}
+
+.yt {
+    width: 500px;
+    height: 300px;
+}
+.container-mision{
+    padding-left: 2em;
+    padding-bottom: 50px;
+}
+.container-mision img{
+    width: 550px;
+    height: 400px;
+}
+.carousel-1 {
+    height: 400px;
+}
+
+@media screen and (max-width: 800px) {
+    .container-about {
+        height: 600px;
+    }
+    .yt {
+        width: 320px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .container-mision{
+        margin-top: 0px;
+        text-align: justify;
+        padding-left: 0em;
+    }
+    .carousel-1 {
+        height: 100px;
+    }
+    
+    .container-mision img{
+        width: 350px;
+    }
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+
+/* HALAMAN CATALOG */
+.banner-catalog img{
+    width: 1050px;
+}
+
+@media screen and (max-width: 800px) {
+    .banner-catalog img{
+        margin-top: 20px;
+        width: 350px;
+    }
+}
+
+/* HALAMAN CONTACT US */
+.banner-contact {
+    background-image: url('https://i.pinimg.com/564x/77/5a/f8/775af8e4885013dec93326c3c430f0e5.jpg');
+}
+
+.section1-contact {
+    margin: 2em 8em 2em 8em;
+}
+
+.maps {
+    width: 1000px;
+    height: 450px;
+}
+
+@media screen and (max-width: 800px) {
+    .section1-contact {
+        margin: 2em 2em 2em 2em;
+    }
+    .section1-contact label, .section-login label{
+        font-size: 12px;
+    }
+    .section1-contact input[type=text], .section1-contact input[type=email], .section1-contact select, .section-login input[type=email] {
+        height: 30px;
+    }
+    .section1-contact button, .section-login button {
+        width: 70px;
+        height: 30px;
+        padding-top: 0.4em;
+        font-size: 12px;
+    }
+    .maps {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+/* HALAMAN LOGIN */
+.section-login {
+    background-image: url('https://img.freepik.com/free-photo/mockup-white-wall-loft-style-house-with-sofa-accessories-room-3d-rendering_41470-3836.jpg?t=st=1650080442~exp=1650081042~hmac=5cc3eaacf50aa6896e8c20aad20220dbffd4c2f070183352a70137192e18bd5e&w=900');
+    height: 600px;
+    text-align: left;
+}
+
+
+.card-login {
+    margin-top: 70px;
+    height: 500px;
+    width: 320px;
+	box-shadow: 3px 3px 3px 3px #B0C4DE;
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 800px) {
+    .section-login {
+        height: 600px;
+    }
+    .card-login {
+        margin: 4em 5em 0em 0.5em;
+    }
+    
+}
+
+.btn-login {
+    background-color: #606c38;
+}
+
+.checkout {
+    width: 93%;
+    height: 50px;
+    margin:  0em 2em 0em 2em;
+    font-size: 20px;
+}

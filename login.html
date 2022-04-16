@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+    <title>UTS|1902125|Annisa Muja Ahidah</title>
+  </head>
+
+  <body>
+    <!-- navigasi -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F7ECDE">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">FURNITURE KINGDOM</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li>
+                  <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" size="95px">
+                  </form>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html" >About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="catalog.html" >Catalog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html" >Contact</a>
+              </li>
+              <li class="mt-2 ms-2"><i class="fas fa-cart-plus"></i></li>
+          </ul>
+          <a href="login.html"><button class="btn btn-nav" type="submit">Login</button></a>
+          </div>
+      </div>
+  </nav>
+      
+    <!-- section 1 : slide image -->
+    <main>
+        <section class="section-login banner-template">
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="card card-login">
+                      <div class="card-body">
+                          <h5 class="text-center pt-2 pb-4"><strong>LOGIN TO YOUR ACCOUNT</strong></h5>
+                          <form class="form-login ps-3" action="proseslogin.php" method="POST">
+                              <div class="form-group" style="width: 250px;">
+                                  <label for="exampleInputEmail1">Email</label>
+                                  <input type="email" class="form-control mb-3" id="email" name="email" aria-describedby="emailHelp">
+                              </div>
+                              <div class="form-group" style="width: 250px;">
+                                  <label for="exampleInputPassword1">Password</label>
+                                  <input type="password" class="form-control mb-3" id="pass" name="pass">
+                              </div>
+                              <div class="form-group">
+                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                  <label class="form-check-label" for="flexCheckDefault">
+                                    Remember me
+                                  </label>
+                                </div>
+                              <button type="submit" class="btn btn-banner text-white mt-4" name="login" id="login">Login</button>
+                          </form>
+                      </div>
+                      <div class="card-footer text-center">
+                          <small class="text-muted">Don't Have an Account? <a href="register.html">REGISTER NOW</a></small>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="col">
+                  </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="bg-light text-center text-white fixed-buttom">   
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="index.html">Course.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
